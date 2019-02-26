@@ -165,6 +165,7 @@ function flyParticle(){
  	scene.add(particle);
   //counter *= 10;
   setTimeout(flyParticle, params.waterPollution);
+
 }
 
 function getRandomColor(){

@@ -87,9 +87,6 @@ var params={
   polluted:false,
   plastic: false,
   chemical: false,
-
-
-
 }
 
 // depending if there is particles stored in the waintingParticles array, get one from there or create a new one
@@ -106,4 +103,6 @@ createParticle();
 loop();
 
 setTimeout(flyParticle, params.waterPollution)
+setTimeout(flyParticle, params.waterPollution)
+//setTimeout(flyParticle, params.waterPollution)
 //setInterval(flyParticle, 10); // launch a new particle every 70ms

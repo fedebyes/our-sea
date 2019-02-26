@@ -17,14 +17,14 @@ body{
 
 }
 #title{
-  position:absolute;
+position:absolute;
   width:100%;
   bottom:0%;
   margin: auto;
   margin-bottom: 10px;
   font-family:'Open Sans', sans-serif;
   color:#0094ff;
-  font-size:1.0em;
+  font-size:24px;
   text-transform: uppercase;
   text-align : center;
 
@@ -32,38 +32,25 @@ body{
 .subtitle{
 
   color:#71b583;
-  font-size:0.3em;
+  font-size:16px;
 
 
 }
 .todo a{
   color:#71b583;
-  font-size:0.6em;
+  font-size:16px;
 }
 .credits{
 
   color:#73c7ff;
-  font-size:0.4em;
+  font-size:14px;
 
 
 }
 .credits a{
 
   color:#73c7ff;
-  font-size:0.5em;
+  font-size:14px;
 
 
-}
-#range{
-  position:absolute;
-  width:100%;
-  top:0%;
-  margin: auto;
-  margin-top: 10px;
-  text-align : center;
-}
-
-.rangeslider__handle {
-  width: 42px;
-  height: 42px;
 }
